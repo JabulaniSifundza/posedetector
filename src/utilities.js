@@ -41,7 +41,7 @@ export const drawHand = (predictions, ctx)=>{
 				const y = landmarks[i][1]
 				//draw landmark
 				ctx.beginPath();
-				ctx.arc(x, y, 5, 0, 3 * Math.PI);
+				ctx.arc(x, y, 10, 0, 3 * Math.PI);
 				//line colour
 				ctx.fillStyle = "indigo";
 				ctx.fill();
